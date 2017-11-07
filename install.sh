@@ -18,8 +18,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
+/usr/local/bin/composer global require laravel/valet fetzi/phpspec-watcher
+
 # valet
-/usr/local/bin/composer global require laravel/valet
 $HOME/.composer/vendor/bin/valet install
 
 mkdir $HOME/projects
