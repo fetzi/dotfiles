@@ -20,6 +20,8 @@ brew 'php71'
 brew 'php71-intl'
 brew 'php71-imagick'
 
+brew 'mysql'
+
 cask 'caffeine'
 cask 'google-chrome'
 cask 'iterm2'
