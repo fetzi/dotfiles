@@ -15,6 +15,7 @@ brew 'homebrew/dupes/grep'
 brew 'git'
 brew 'node'
 brew 'wget'
+brew 'mas'
 
 brew 'php71'
 brew 'php71-intl'
@@ -30,3 +31,9 @@ cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'font-fira-code'
+cask 'postman'
+
+# app store stuff
+mas 'Deckset', id: 847496013
+mas 'Fantastical 2', id: 975937182
+mas 'Bear', id: 1091189122
