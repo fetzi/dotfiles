@@ -32,6 +32,7 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'font-fira-code'
 cask 'postman'
+cask 'bettertouchtool'
 
 # app store stuff
 mas 'Deckset', id: 847496013
