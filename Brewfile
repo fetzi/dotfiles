@@ -3,7 +3,6 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
-tap 'homebrew/php'
 
 brew 'zsh'
 brew 'zsh-completions'
@@ -17,9 +16,7 @@ brew 'node'
 brew 'wget'
 brew 'mas'
 
-brew 'php71'
-brew 'php71-intl'
-brew 'php71-imagick'
+brew 'php@7.1'
 
 brew 'mysql'
 
@@ -33,8 +30,3 @@ cask 'visual-studio-code'
 cask 'font-fira-code'
 cask 'postman'
 cask 'bettertouchtool'
-
-# app store stuff
-mas 'Deckset', id: 847496013
-mas 'Fantastical 2', id: 975937182
-mas 'Bear', id: 1091189122
