@@ -14,9 +14,17 @@ brew 'homebrew/dupes/grep'
 brew 'git'
 brew 'node'
 brew 'wget'
-brew 'mas'
 
-brew 'php@7.1'
+# php
+brew install php@7.1
+brew link php@7.1 --force
+brew tap kabel/php-ext
+brew install php@7.1-imap
+pecl install xdebug
+brew install pkg-config
+brew install imagemagick
+pecl install imagick
+pecl install redis
 
 brew 'mysql'
 
@@ -29,4 +37,3 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'font-fira-code'
 cask 'postman'
-cask 'bettertouchtool'

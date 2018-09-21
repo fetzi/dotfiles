@@ -27,4 +27,4 @@ mkdir $HOME/projects
 
 echo "source ~/.dotfiles/.zshrc" > $HOME/.zshrc
 
-source .macos
+#source .macos
